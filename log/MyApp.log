@@ -1,0 +1,15 @@
+[2020-11-09 00:15:13,107: MyApp: MyApp.py:53:<module>]: INFO: Starting application __main__
+[2020-11-09 00:31:39,230: MyApp: MyApp.py:53:<module>]: INFO: Starting application __main__
+[2020-11-09 00:31:39,230: MyApp: MyApp.py:53:<module>]: INFO: Starting application __main__
+[2020-11-09 00:31:39,232: MyApp: MyApp.py:56:<module>]: INFO: Initializing application __main__
+[2020-11-09 00:31:39,232: MyApp: MyApp.py:56:<module>]: INFO: Initializing application __main__
+[2020-11-09 00:31:44,470: MyApp: MyApp.py:59:<module>]: INFO: Reading RAW data
+[2020-11-09 00:31:44,470: MyApp: MyApp.py:59:<module>]: INFO: Reading RAW data
+[2020-11-09 00:31:47,177: MyApp: MyApp.py:63:<module>]: INFO: Transforming RAW data
+[2020-11-09 00:31:47,177: MyApp: MyApp.py:63:<module>]: INFO: Transforming RAW data
+[2020-11-09 00:31:47,316: MyApp: MyApp.py:78:<module>]: INFO: Loading as parquet files
+[2020-11-09 00:31:47,316: MyApp: MyApp.py:78:<module>]: INFO: Loading as parquet files
+[2020-11-09 00:32:43,142: MyApp: MyApp.py:84:<module>]: INFO: Loading as json files
+[2020-11-09 00:32:43,142: MyApp: MyApp.py:84:<module>]: INFO: Loading as json files
+[2020-11-09 00:33:19,912: MyApp: MyApp.py:91:<module>]: INFO: Successfully Logout from the application
+[2020-11-09 00:33:19,912: MyApp: MyApp.py:91:<module>]: INFO: Successfully Logout from the application

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Nov 08 22:46:37 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0175-aa0a-2dde-0000074089f8 
+on database directory /MyApp/metastore_db with class loader sun.misc.Launcher$AppClassLoader@4617c264 
+Loaded from file:/usr/local/spark-2.3.2-bin-hadoop2.7/jars/derby-10.12.1.1.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_272-8u272-b10-0ubuntu1~20.04-b10
+user.dir=/MyApp
+os.name=Linux
+os.arch=amd64
+os.version=4.19.76-linuxkit
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

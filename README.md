@@ -14,20 +14,18 @@ MyApp does following:
 MyApp has following structure
 
 1. [MyApp.py] is main module of this App. This is the entry point of program.
-2. [data] folder contains source data.
-3. [output, spark-warehouse] folder contains processed data.
-4. [tools, sql] folder contains scripts to run Spark SQL database and Jupyter Notebook.
-5. [common, log] folder is used to include supporting framework like logging.
-6. [analysis] folder contain Jupyter notebook to analyse and understand the data.
+2. [tools, sql] folder contains scripts to run Spark SQL database and Jupyter Notebook.
+3. [analysis] folder contain Jupyter notebook to analyse and understand the data.
+4. [data, output, common, log] folder is used to include supporting framework like source & target data, logging.
 
 ## Running App
 
 Following are the steps to start 'MyApp'
 
 1. Download Repository
-2. Run [Dockerfile] using command `docker build -t myapp .`. Note, this might take ~20 minutes and ~3 Gb of space as it does heavy lifting of all required softwares. I haven't used 3rd party pre-built docker images and haven't spend time in installing only required softwares.
+2. Run [Dockerfile] using command `docker build -t myapp .`. Note, this might take ~20 minutes and ~3 Gb of space as it does heavy lifting of all required softwares. I haven't used 3rd party pre-built docker images and I haven't spend time in installing [only] required components within a SDK.
 3. Run [DockerImage] using command `docker run -it --rm --name=myapp -p 4040:4040 -p 8888:8888 myapp`
-4. Run Application using command `python MyApp.py`
+4. Once container shell [bash] is active, run application using command `python MyApp.py`
 
 ## Running SparkSQL DB
 
@@ -42,4 +40,4 @@ Following are the steps to start 'MyApp'
 
 ## Running Spark UI
 
-1. While container is running, Spark UI can be accessed from local machine browser through URL [http://localhost:4040]
+1. While container is running, Spark UI can be accessed from local machine browser using URL [http://localhost:4040]
