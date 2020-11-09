@@ -128,5 +128,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#Spark WareHouse
+#Spark Warehouse
 spark-warehouse/
+
+#Hive Warehouse
+metastore_db/
+derby.log/
+
+#Extras
+Not_Needed/
+.ipynb_checkpoints
+output/*.*
