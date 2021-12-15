@@ -1,4 +1,4 @@
-# MyApp
+# Spark-Python-Sample
 
 ## Objective:
 
